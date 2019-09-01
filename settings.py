@@ -75,18 +75,7 @@ WSGI_APPLICATION = 'tutorial.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangoresttest',
-        'USER': 'admindjangorest',
-        'PASSWORD': 'admindjangorest1301',
-        'HOST': 'djangorest-dev.c9nj0qqobdps.us-east-2.rds.amazonaws.com',
-        'PORT': '5432',
-    }
-}
-'''
+
 # Local Database
 DATABASES = {
     'default': {
